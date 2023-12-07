@@ -1,0 +1,249 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: Montserrat;
+}
+
+.container {
+  font-family: Roboto;
+  display: grid;
+  grid-template-areas:
+    navBar
+    headContainer headContainer
+    bodyContainer bodyContainer
+    footer;
+}
+
+.boldText {
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+th {
+  text-align: center;
+}
+
+.personalTable {
+  margin-bottom: 1rem;
+}
+
+.navBar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.links {
+  background-color: #151515;
+  border-radius: 0 0 0.75em 0;
+  box-shadow: 5px 5px 5px #232323;
+}
+
+.topLink:hover {
+  color: #888a8b;
+}
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.headContainer {
+  background-color: #151515;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.personalContainer {
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2.25rem 0.75rem 0.75rem 0.75rem;
+  box-shadow: 8px 5px 10px #232323;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50%;
+  padding: 1.5rem 0 2rem 0;
+}
+
+.socialData {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.certs {
+  text-align: center;
+}
+
+.skills {
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.05rem 0.5rem 0.5rem;
+  box-shadow: 8px 5px 10px #232323;
+}
+
+.progress {
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.windows,
+.css {
+  width: 80%;
+}
+
+.linux {
+  width: 30%;
+}
+
+.html,
+.sql {
+  width: 90%;
+}
+
+.networking,
+.javascript {
+  width: 70%;
+}
+
+.serviceNow {
+  width: 40%;
+}
+
+.bodyContainer {
+  background-color: #151515;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.resume {
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  box-shadow: 8px 5px 10px #232323;
+}
+
+.buttonDiv {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.download {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  box-shadow: 8px 5px 3px #383838;
+  border:0;
+}
+
+.download:hover {
+  background-color: #acacad;
+  color: #ffffff;
+  border: 0;
+}
+
+.resumeTitle,
+.portTitle,
+.skillsTitle,
+.name {
+  text-align: center;
+  font-size: 1.75rem;
+}
+.portfolio {
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  box-shadow: 8px 5px 10px #232323;
+}
+
+.projects {
+  margin-bottom: 1rem;
+}
+
+.portCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.25rem;
+  gap: 0.75rem;
+}
+
+.card {
+  /*background-color:rgb(58, 57, 57);*/
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tableInfo {
+  text-align: center;
+}
+
+.hyperLinks:link {
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.hyperLinks:hover {
+  color: #888a8b;
+}
+
+@media only screen and (max-width: 600px) {
+  .headContainer {
+    background-color: #151515;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .bodyContainer {
+    background-color: #151515;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+}
