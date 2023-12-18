@@ -11,7 +11,7 @@ body {
   color: white;
   font-family: Montserrat;
 }
-
+/*Site Container */
 .container {
   font-family: Roboto;
   display: grid;
@@ -22,27 +22,7 @@ body {
     footer;
 }
 
-.boldText {
-  font-weight: 900;
-  margin-bottom: 1rem;
-}
-
-th {
-  text-align: center;
-}
-
-.personalTable {
-  margin-bottom: 1rem;
-}
-
-.navBar {
-  margin-bottom: 1rem;
-}
-
-.navbar-brand:hover {
-  color: #ffffff;
-}
-
+/* Link behavior*/
 .links {
   background-color: #151515;
   border-radius: 0 0 0.75em 0;
@@ -56,10 +36,48 @@ th {
   color: white;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .nav-link {
   color: white;
 }
 
+.hyperLinks:link {
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.hyperLinks:hover {
+  color: #888a8b;
+}
+
+.navBar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+/* Header Text */
+.boldText {
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+/* SHARED Text Styles*/
+.resumeTitle,
+.portTitle,
+.skillsTitle,
+.name {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+/* Top Header with Skills and Personal */
 .headContainer {
   background-color: #151515;
   display: grid;
@@ -71,6 +89,7 @@ th {
   border-radius: 0.5rem;
 }
 
+/* Personal Info Area */
 .personalContainer {
   background-color: #1b1b1b;
   border-radius: 0.5rem;
@@ -79,10 +98,29 @@ th {
   box-shadow: 8px 5px 10px #232323;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
+/* Table in the Pesonal Section */
+table {
+  margin: 0 auto;
 }
 
+td {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tableInfo {
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+.personalTable {
+  margin-bottom: 1rem;
+}
+
+/* Picture */
 .avatar {
   border-radius: 50%;
   width: 50%;
@@ -94,10 +132,7 @@ th {
   padding-top: 1rem;
 }
 
-.certs {
-  text-align: center;
-}
-
+/* Skills List Section */
 .skills {
   background-color: #1b1b1b;
   border-radius: 0.5rem;
@@ -133,6 +168,11 @@ th {
   width: 40%;
 }
 
+.certs {
+  text-align: center;
+}
+
+/* Body Section - Resume and Protfolio */
 .bodyContainer {
   background-color: #151515;
   display: grid;
@@ -144,6 +184,7 @@ th {
   border-radius: 0.5rem;
 }
 
+/* Resume Section with button to Download */
 .resume {
   background-color: #1b1b1b;
   border-radius: 0.5rem;
@@ -170,13 +211,7 @@ th {
   border: 0;
 }
 
-.resumeTitle,
-.portTitle,
-.skillsTitle,
-.name {
-  text-align: center;
-  font-size: 1.75rem;
-}
+/* Portfolio Section */
 .portfolio {
   background-color: #1b1b1b;
   border-radius: 0.5rem;
@@ -201,6 +236,15 @@ th {
   color: black;
 }
 
+
+
+
+
+
+
+
+
+/* Footer Section */
 .footer {
   background-color: black;
   margin-bottom: 0.75rem;
@@ -209,29 +253,7 @@ th {
   padding: 0.75rem;
 }
 
-table {
-  margin: 0 auto;
-}
-
-td {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.tableInfo {
-  text-align: center;
-}
-
-.hyperLinks:link {
-  color: white;
-  text-decoration: none;
-  border-radius: 0.25rem;
-}
-
-.hyperLinks:hover {
-  color: #888a8b;
-}
-
+/* Media Query's */
 @media only screen and (max-width: 600px) {
   .headContainer {
     background-color: #151515;
