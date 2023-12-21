@@ -227,16 +227,20 @@ th {
 .portCards {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin: 0.25rem;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
-.card {
-  /*background-color:rgb(58, 57, 57);*/
-  color: black;
+/* The flip card container */
+.flip-card {
+  background-color: #ffffff;
+  height: 200px;
+  border-radius: 1rem;
 }
 
-.flipInner {
+/* This container is needed to position the front and back side */
+.flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -245,27 +249,33 @@ th {
   transform-style: preserve-3d;
 }
 
-.card:hover .flipInner {
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flipCardBack, .flipCardFront {
+.flip-card-front, .flip-card-back {
+  position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  padding:.75rem;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flipCardFront {
-  background-color: #bbb;
+/* Style the front side */
+.flip-card-front {
+  background-color: #ffffff;
   color: black;
+  border-radius:1rem;
 }
 
 /* Style the back side */
-.flipCardBack {
-  color: white;
+.flip-card-back {
+  background-color: #ffffff;
+  color: black;
   transform: rotateY(180deg);
+  border-radius:1rem;
 }
 
 /* Footer Section */
