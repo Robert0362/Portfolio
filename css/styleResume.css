@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  color: white;
+  font-family: Montserrat;
+}
+
+.navBar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: white;
+}
+.topLink:hover {
+  color: #888a8b;
+}
+.navbar-brand {
+  color: white;
+}
+
+.resume {
+  margin-left: 2rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.skillList {
+  list-style-type: none;
+}
+
+.techPro {
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+  background-color: black;
+  margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.75rem;
+}
