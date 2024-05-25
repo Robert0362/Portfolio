@@ -12,8 +12,13 @@ body {
   font-family: Montserrat;
 }
 
+h2{
+    font-weight:700;
+}
+
 .navBar {
   margin-bottom: 1rem;
+  padding-right: 1.5rem;
 }
 
 .navbar-brand:hover {
@@ -32,10 +37,12 @@ body {
 
 .resume {
   margin-left: 2rem;
+  margin-right:3rem;
 }
 
 .name {
   text-align: center;
+  font-weight: bolder;
 }
 
 .skillList {
