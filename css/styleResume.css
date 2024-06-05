@@ -9,16 +9,37 @@ body {
   width: 100vw;
   background-color: #000000;
   color: white;
-  font-family: Montserrat;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
-h2{
-    font-weight:700;
+a {
+  color: white;
+}
+
+a:active,
+a:hover {
+  color: white;
+}
+
+.container {
+  font-family: Roboto;
+  display: grid;
+  grid-template-areas:
+    navBar
+    header header
+    job-skills job-skills
+    work-history work-history
+    footer;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .navBar {
-  margin-bottom: 1rem;
-  padding-right: 1.5rem;
+  display: flex;
+  margin: 1rem 10rem 0.5rem 0rem;
+  padding-left: 0rem;
 }
 
 .navbar-brand:hover {
@@ -33,16 +54,49 @@ h2{
 }
 .navbar-brand {
   color: white;
+  padding-left: 0rem;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navBar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
 }
 
 .resume {
   margin-left: 2rem;
-  margin-right:3rem;
+  margin-right: 3rem;
+}
+
+.header {
+  line-height: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.main {
+  margin-left: 0.65rem;
+  margin-right: 1rem;
+}
+
+hr {
+  width: 98%;
 }
 
 .name {
   text-align: center;
   font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .skillList {
@@ -53,11 +107,43 @@ h2{
   font-weight: bold;
 }
 
+hr {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 0rem;
+}
+
+.employer {
+  margin-right: 1rem;
+}
+
+.company {
+  margin-left: 1.5rem;
+  margin-right: 3rem;
+}
+
+.descriptions {
+  margin-left: 1rem;
+}
+
+.education {
+  margin-bottom: 2rem;
+}
+
+.degrees {
+  margin-left: 1rem;
+}
+
+.school {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
 /* Footer Section */
 .footer {
   background-color: black;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0rem 3rem 2.75rem 3rem;
   border-radius: 0.5rem;
   text-align: center;
-  padding: 0.75rem;
+  padding-bottom: 2rem;
 }
